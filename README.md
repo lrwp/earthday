@@ -1,4 +1,4 @@
 Earth Day Fort Wayne
 ========
 
-[earthdayfortwayne.org](http://http://earthdayfortwayne.org/)
+[earthdayfortwayne.org](http://earthdayfortwayne.org/)
