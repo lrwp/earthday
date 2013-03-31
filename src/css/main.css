@@ -182,6 +182,11 @@ nav a:hover {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+.normal {
+    text-decoration: none;
+    color:#222;
+}
+
 #sponsors article {
     width: 100%;
 }
@@ -217,6 +222,15 @@ nav a:hover {
 #plex {
     width:auto;
     height: 100px;
+}
+
+#lrwp img{
+    border-radius: 4px;
+    margin-right:10px;
+}
+#lrwp a {
+text-decoration: none;
+color: #fff;
 }
 
 /* ==========================================================================
