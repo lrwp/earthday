@@ -17,13 +17,18 @@ build:
 	cat build/sponsors.content.html >> build/sponsors.html
 	cat build/footer.html >> build/sponsors.html
 
+	# Contact	
+	cat build/header.html > build/contact.html
+	cat build/contact.content.html >> build/contact.html
+	cat build/footer.html >> build/contact.html
+
 	rm build/*.content.html
 	rm build/header.html
 	rm build/footer.html
 
 	# Minify templates
 	for h in build/*.html; do \
-		echo "Compressing: $$j"; \
+		echo "Minifying: $$h"; \
 		java -jar util/htmlcompressor-1.5.3.jar --remove-surrounding-spaces all --type html -o "$$h" "$$h"; \
 	done
 
